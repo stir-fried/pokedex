@@ -1,25 +1,23 @@
 from customtkinter import *
-#CTkButton(master=app, text="Hello"
-#       ,corner_radius=10, width=120, height=32, fg_color="blue", hover_color="red",border_color="", border_width=
-#       command=fuct_name).pack(pady=20)
-#CTkLabel(master=app, text="Hello", font=("Arial", 24), text_color="white").pack(pady=20)
-#.place(relx=0.5, rely=0.5, anchor=CENTER)
-#.configure
 
-
-
-
-
-
-
-
-app = CTk()
-app.geometry("600x400")
 set_appearance_mode("dark")
+app = CTk()
+app.title("Pokedex")
+app.geometry("800x500")
+app.grid_rowconfigure((0,1), weight=1)
+app.grid_columnconfigure((0,1,2), weight=1)
 
+list_frame = CTkFrame(app,fg_color='blue')
+list_frame.grid(row=0, column=0, rowspan=2, padx=(20,0), pady=20, sticky='nsew')
 
+sprite_frame = CTkFrame(app, fg_color='red')
+sprite_frame.grid(row=0, column=1, padx=20, pady=20, sticky='nsew')
 
+details_frame = CTkFrame(app, fg_color='purple')
+details_frame.grid(row=0, column=2, padx=(0,20), pady=20, sticky='nsew')
 
+stats_frame = CTkFrame(app, fg_color='orange')
+stats_frame.grid(row=1, column=1, columnspan=2, padx=20, pady=(0,20), sticky='nsew')
 
 
 
