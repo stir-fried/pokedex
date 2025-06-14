@@ -26,10 +26,10 @@
 26,Raichu,Electric,Its long tail serves as a ground to protect itself from its own high voltage power.
 27,Sandshrew,Ground,Burrows deep underground in arid locations far from water. It only emerges to hunt for food.
 28,Sandslash,Ground,Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.
-29,Nidoran♀,Poison,Although small, its venomous barbs render this POKEMON dangerous. The female has smaller horns.
+29,NidoranF,Poison,Although small, its venomous barbs render this POKEMON dangerous. The female has smaller horns.
 30,Nidorina,Poison,The female’s horn develops slowly. Prefers physical attacks such as clawing and biting.
 31,Nidoqueen,Poison/Ground,Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.
-32,Nidoran♂,Poison,Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.
+32,NidoranM,Poison,Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom.
 33,Nidorino,Poison,An aggressive POKEMON that is quick to attack. The horn on its head secretes a powerful venom.
 34,Nidoking,Poison/Ground,It uses its powerful tail in battle to smash, constrict, then break the prey’s bones.
 35,Clefairy,Fairy,Its magical and cute appeal has many admirers. It is rare and found only in certain areas.
